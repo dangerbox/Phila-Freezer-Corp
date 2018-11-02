@@ -1421,12 +1421,17 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   background: #89cde5;
   padding-top: 50px;
-  padding-right: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
+ 
+  
 }
  
+#tempbuttonleft {
+	padding-left: 50px;
+}
 
-	
+#tempbuttonright {
+	padding-right: 50px;
+}
   
 
