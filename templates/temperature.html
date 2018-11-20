@@ -1,78 +1,275 @@
 {% extends 'layout.html' %}
 {% block body %}
 
+	<!-- Header -->
 	<header role="banner" id="fh5co-header">
-			<div class="container">
-				<!-- <div class="row"> -->
-			    <nav class="navbar navbar-default">
-		        <div class="navbar-header">
-		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		         <a class="navbar-brand" href="/index">Phila Freezer Corp</a>
-		        </div>
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="/index" class="external"><span>Home</span></a></li>
-					<li><a href="/login" class="external" data-nav-section="work"><span>Login</span></a></li>
-
-		          </ul>
-		        </div>
-			    </nav>
-			  <!-- </div> -->
-		  </div>
+	<div class="container">
+	<!-- <div class="row"> -->
+	<nav class="navbar navbar-default">
+	<div class="navbar-header">
+	<!-- Mobile Toggle Menu Button -->
+	<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+	<a class="navbar-brand" href="/index">Phila Freezer Corp</a>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse">
+	<ul class="nav navbar-nav navbar-right">
+	<li><a href="/index" class="external"><span>Home</span></a></li>
+	<li><a href="/login" class="external" data-nav-section="work"><span>Login</span></a></li>
+	</ul>
+	</div>
+	</nav>
+	<!-- </div> -->
+	</div>	
 	</header>
 
 
-
-    <!-- Main Jimjammer -->
+	<!-- Status Section -->
+	<section id="fh5co-counters" style="background-image: url(file:///C|/Users/Jake/Desktop/Temporary/images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+	<div class="fh5co-overlay"></div>	
+	<div class="container">
+		
+	<div class="row">
+	<div class="col-md-12 section-heading text-center to-animate">
+	<h2>Status</h2>
+	</div>
+	</div>
+		
+	<div class="row">
+		
+	<div class="col-md-3 col-sm-6 col-xs-12">
+	<div class="fh5co-counter to-animate">
+	<i class="fh5co-counter-icon icon-home to-animate-2"></i>
+	<span class="fh5co-counter-number js-counter" data-from="0" data-to="72" data-decimals="1" data-speed="4000" data-refresh-interval="50"></span>
+	<span class="fh5co-counter-label">Room Temp</span>
+	</div>
+	</div>
+		
+	<div class="col-md-3 col-sm-6 col-xs-12">
+	<div class="fh5co-counter to-animate">
+	<i class="fh5co-counter-icon icon-dashboard to-animate-2"></i>
+	<span class="fh5co-counter-number js-counter" data-from="0" data-to="200" data-decimals="1" data-speed="4000" data-refresh-interval="50"></span>
+	<span class="fh5co-counter-label">Condenser Temp</span>
+	</div>
+	</div>
+		
+	<div class="col-md-3 col-sm-6 col-xs-12">
+	<div class="fh5co-counter to-animate">
+	<i class="fh5co-counter-icon icon-clock to-animate-2"></i>						
+	<span class="fh5co-counter-number js-counter" data-from="0" data-to="120" data-decimals="0" data-speed="4000" data-refresh-interval="50"></span>
+	<span class="fh5co-counter-label">Uptime</span>
+	</div>
+	</div>
+		
+	<div class="col-md-3 col-sm-6 col-xs-12">
+	<div class="fh5co-counter to-animate">
+	<i class="fh5co-counter-icon icon-clock to-animate-2"></i>
+	<span class="fh5co-counter-number js-counter" data-from="0" data-to="55" data-decimals="0" data-speed="4000" data-refresh-interval="50"></span>
+	<span class="fh5co-counter-label">Timer Minutes Remaining</span>
+	</div>
+	</div>
+		
+	</div>
+		
+	</div>	
+	</section>
+	
+	<!-- Settings Section -->
 	<section id="fh5co-work" data-section="work">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Temperature Controller</h2>
-					<div class="row row-bottom-padded-sm text-center">
-
-						<div class="col"></div>
-
-						<div class="input-group col-6 tempcontrol">
-						<span class="input-group-btn" id="tempbuttonleft">
-              			<button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
-           	  			<span class="glyphicon glyphicon-minus"></span>
-              			</button>
-          				</span>
-          				<input type="text"  style="text-align: center; background-color: azure" name="quant[2]" class="form-control input-number" value="69" min="1" max="300">
-         				<span class="input-group-btn" id="tempbuttonright">
-             			<button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
-             			<span class="glyphicon glyphicon-plus"></span>
-             			</button>
-          				</span>
-						</div>
-
-						<div class="col"></div>
-
-					</div>
-				</div>
-			</div>
-		</div>
+	<div class="container">
+		
+	<div class="row">
+	<div class="col-md-12 section-heading text-center">
+	<h2 class="to-animate">Adjust Settings</h2>
+	</div>
+	</div>
+		
+	<div class="row row-bottom-padded-sm">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	<div class="fh5co-project-item to-animate"  style="background-color: #a0e3ef">
+	<div class="row">
+		
+	<div class="fh5co-text text-center">
+	<h1 class=tempnum> Set Temperature</h1>
+	<p>
+	<h3>Adjust slider or click to enter desired minutes.</h3>
+	</p>
+	<div class="col-6">
+	<div id="knob_temp"/>	
+	</div>
+		
+	<div class="row">
+	<button type="button" class="btn btn-success">Confirm</button>
+	</div>
+		
+	</div>
+		
+	</div>
+	</div>
+	</div>	
+	</div>	
+		
+	<div class="row row-bottom-padded-sm">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	<div class="fh5co-project-item to-animate"  style="background-color: #a0e3ef">
+	<div class="row">
+		
+	<div class="fh5co-text text-center">
+	<h1 class=tempnum> Set Timer</h1>
+	<p>
+	<h3>Adjust slider or click to enter desired minutes.</h3>
+	</p>
+	<div class="col-6">
+	<div id="knob_timer"/>
+	</div>	
+		
+	<div class="row">
+	<button type="button" class="btn btn-success">Start</button>
+	</div>
+	</div>
+		
+	</div>
+	</div>
+	</div>
+	</div>	
+		
+	</div>
 	</section>
 
+	
+    <!-- Old Section
+	<section id="fh5co-work" data-section="work">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-12 section-heading text-center">
+	<h2 class="to-animate">Temperature Controller</h2>
+	<div class="row row-bottom-padded-sm text-center">
+
+	<div class="col"></div>
+
+	<div class="input-group col-6 tempcontrol">
+	<span class="input-group-btn" id="tempbuttonleft">
+    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
+    <span class="glyphicon glyphicon-minus"></span>
+    </button>
+    </span>
+    <input type="text"  style="text-align: center; background-color: azure" name="quant[2]" class="form-control input-number" value="69" min="1" max="300">
+    <span class="input-group-btn" id="tempbuttonright">
+    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
+    <span class="glyphicon glyphicon-plus"></span>
+    </button>
+    </span>
+    </div>
+	<div class="col"></div>
+
+    </div>
+	</div>
+	</div>
+	</div>
+	</section>
+	 -->
 
 	<!-- Footer -->
 	<footer id="footer" role="contentinfo">
-		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
-		<div class="container">
-			<div class="">
-				<div class="col-md-12 text-center">
-					<p>&copy; Phila Freezer Corp. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">Megabox Prime</a> </p>
-
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-
-				</div>
-			</div>
-		</div>
+	<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+	<div class="container">
+	<div class="">
+	<div class="col-md-12 text-center">
+	<p>&copy; Phila Freezer Corp. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">Megabox Prime</a> </p>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-md-12 text-center">
+	</div>
+	</div>
+	</div>
 	</footer>
 
+	<!-- Knob Script/Settings -->
+	<script type="text/javascript">
+		
+	//Temperature Knob Script
+	function knob_temp() {
+	// Create knob element.
+	var knob_temp = pureknob.createKnob(180, 180);			
+	// Set properties.			
+	knob_temp.setProperty('angleStart', -0.75 * Math.PI);
+	knob_temp.setProperty('angleEnd', 0.75 * Math.PI);
+	knob_temp.setProperty('colorFG', '#3be539');
+	knob_temp.setProperty('trackWidth', 0.4);
+	knob_temp.setProperty('valMin', 40);
+	knob_temp.setProperty('valMax', 200);						
+	// Set initial values.
+	knob_temp.setValue(72);		
+	/*
+	* Event listener.
+	*
+	* Parameter 'knob' is the knob object which was
+	* actuated. Allows you to associate data with
+	* it to discern which of your knobs was actuated.
+	*
+	* Parameter 'value' is the value which was set
+	* by the user.
+	*/
+	var listener = function(knob, value) {
+	console.log(value);
+	};
+				
+	knob_temp.addListener(listener);
+				
+	// Create element node.
+	var node = knob_temp.node();			
+	// Add it to the DOM.
+	var elem = document.getElementById('knob_temp');
+	elem.appendChild(node);
+	}					
+	/*
+	* This is executed after the document finished loading.
+	*/
+	function ready() {
+	knob_temp();
+	}
+
+	document.addEventListener('DOMContentLoaded', ready, false);
+	</script>
+		
+	//Timer Knob Script
+	<script type="text/javascript">
+			
+	function knob_timer() {
+	// Create knob element.
+	var knob_timer = pureknob.createKnob(180, 180);			
+	// Set properties.			
+	knob_timer.setProperty('angleStart', -0.75 * Math.PI);
+	knob_timer.setProperty('angleEnd', 0.75 * Math.PI);
+	knob_timer.setProperty('colorFG', '#3be539');
+	knob_timer.setProperty('trackWidth', 0.4);
+	knob_timer.setProperty('valMin', 15);
+	knob_timer.setProperty('valMax', 120);			
+	// Set initial values.
+	knob_timer.setValue(30);	
+	// Event listener.			
+	var listener = function(knob, value) {
+	console.log(value);
+	};
+				
+	knob_timer.addListener(listener);			
+	// Create element node.
+	var node = knob_timer.node();			
+	// Add it to the DOM.
+	var elem2 = document.getElementById('knob_timer');
+	elem2.appendChild(node);
+	}					
+	/*
+	* This is executed after the document finished loading.
+	 */
+	function ready() {
+	knob_timer();
+	}
+
+	document.addEventListener('DOMContentLoaded', ready, false);
+	</script>	
+
+
 {% endblock %}
+
+
